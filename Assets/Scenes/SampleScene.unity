@@ -1512,6 +1512,7 @@ GameObject:
   - component: {fileID: 904007605}
   - component: {fileID: 904007606}
   - component: {fileID: 904007607}
+  - component: {fileID: 904007608}
   m_Layer: 0
   m_Name: LeftHand Controller
   m_TagString: Untagged
@@ -1810,6 +1811,21 @@ MonoBehaviour:
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
   m_AllowHoverHapticsWhileSelecting: 1
+--- !u!114 &904007608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904007599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945dd6213b61d9740bcf827f0f689c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Controller: {fileID: 904007605}
+  m_Animator: {fileID: 1955989326}
+  m_Speed: 8
 --- !u!1 &967558635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,6 +1961,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1032262773906023854, guid: 9e4bef91ad5401e4ab06282862582e85, type: 3}
   m_PrefabInstance: {fileID: 118456039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1155711154 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5686134208192617028, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+  m_PrefabInstance: {fileID: 335188043}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1166768389 stripped
 GameObject:
@@ -2977,6 +2998,7 @@ GameObject:
   - component: {fileID: 1561606683}
   - component: {fileID: 1561606684}
   - component: {fileID: 1561606685}
+  - component: {fileID: 1561606686}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -3275,6 +3297,21 @@ MonoBehaviour:
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
   m_AllowHoverHapticsWhileSelecting: 1
+--- !u!114 &1561606686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561606677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945dd6213b61d9740bcf827f0f689c93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Controller: {fileID: 1561606683}
+  m_Animator: {fileID: 1155711154}
+  m_Speed: 8
 --- !u!1 &1677511734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,6 +3669,11 @@ Transform:
   m_Father: {fileID: 1957679601}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: -30, y: 90, z: 0}
+--- !u!95 &1955989326 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 109434732388006827, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+  m_PrefabInstance: {fileID: 241898020}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1957679595 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 47377a9aa6b50294a865e21fe968af4d, type: 3}
